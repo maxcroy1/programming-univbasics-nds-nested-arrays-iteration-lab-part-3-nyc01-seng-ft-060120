@@ -8,5 +8,5 @@ def join_nested_strings(src)
         strings_array << src[i][y]
     end
   end
-  strings_array.join(" ")
+  #strings_array.join(" ")
 end
