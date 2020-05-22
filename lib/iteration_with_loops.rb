@@ -4,6 +4,7 @@ def join_nested_strings(src)
   strings_array = Array.new 
   for i in 0...(src.length)
     for y in 0...(src[i].length)
+    
     end
   end
 end
