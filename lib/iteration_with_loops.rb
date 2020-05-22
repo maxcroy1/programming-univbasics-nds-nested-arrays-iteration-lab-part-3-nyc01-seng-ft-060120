@@ -6,6 +6,7 @@ def join_nested_strings(src)
     for y in 0...(src[i].length)
       if src[i][y].is_a? String 
         strings_array << src[i][y]
+      end
     end
   end
   strings_array.join(" ")
